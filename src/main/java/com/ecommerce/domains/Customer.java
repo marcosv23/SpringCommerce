@@ -14,6 +14,7 @@ import javax.persistence.Id;
 import javax.persistence.OneToMany;
 
 import com.ecommerce.domains.enums.CustomerType;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 
 @Entity
 public class Customer implements Serializable{
@@ -29,6 +30,8 @@ public class Customer implements Serializable{
 	private City city;
 	private CustomerType customerType;
 	
+	//only to bidirectional associations
+	@JsonManagedReference // serializing, listing
 	@OneToMany(mappedBy="customer")
 	private List<Adress> adresses = new ArrayList<>();
 	
