@@ -10,10 +10,9 @@ There are many features used to deliver JSON objects through  REST APIs.
 
 I 'll as soon as I have time, use the API to consuming into React Frontend and Mobile App by React Native
 
-	:mechanical_arm: :credit_card:
+:mechanical_arm:  :credit_card:
 This app will encompass an all-out store.
 
-yarn start
 
 **Pretty Sooner** I 'll put this up for an deploy, *'cause this project has been launched at my free times.*
 
